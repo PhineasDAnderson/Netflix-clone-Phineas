@@ -1,0 +1,227 @@
+                                                    <!--HTML BOILERPLATE-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix clone</title>
+
+    
+    <!--Google Fonts for Netflix-style logo-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+    
+    <!--Custon CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome for social media icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!--for the favicon-->
+    <link rel="icon" type="image/png" href="assets/Icons/netflix favicon.png">
+
+</head>
+
+<body>
+                                                <!--The Nav bar!!!-->
+  <!--Top Bar -->
+  <header class="top-bar">
+    <div class="logo">
+        <img src="assets/Photos/Netflix-transparent logo.png" alt="Netflix logo">
+    </div>
+    <div class="signin">
+        <button class="signin-btn">Sign In</button>
+    </div>
+  </header>
+
+  <!--Hero Section Starts here-->
+  <section class="hero">
+    <h1>Unlimited movies, TV shows, and more</h1>
+    <h2>Watch anywhere. Cancel anytime.</h2>
+    <p class="signup-text">Ready to watch? Enter your email to create or restart your membership.</p>
+
+    <!--Signup form directly under <p> element -->
+    <form class="email-container">
+    <div class="input-group">
+            <input type="email" id="email" required autocomplete="email" placeholder=" ">
+            <label for="email">Email Address</label>
+        </div>
+        <button class="cta-btn">Get Started</button>
+    </form>
+    <!--Monitor behind everything-->
+    <div class="monitor">
+    <div class="screen">    
+    <video class="hero-video" autoplay muted loop>
+            <source src="assets/Trailer/Netflix Intro Evolution 2017 2025 (4K) All Logo Variants  TUDUM Sound Compilation.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="stand"></div>
+    <div class="base"></div>
+    </div>
+</section>
+
+                                                <!-- Trending Now Section -->
+<section class="trending">
+    <h2>Trending Now</h2>
+    <div class="carousel">
+        <div class="carousel-track">
+            <div class="poster">
+                <span class="rank">1</span>
+                <img src="assets/Photos/breaking bad.jpg" alt="Trending 1">
+            </div>
+            <div class="poster">
+                <span class="rank">2</span>
+                <img src="assets/Photos/Better Call Saul Poster.jpg" alt="Trending 2">
+            </div>
+            <div class="poster">
+                <span class="rank">3</span>
+                <img src="assets/Photos/Dan Dan Dan Poster.jpg" alt="Trending 3">
+            </div>
+            <div class="poster">
+                <span class="rank">4</span>
+                <img src="assets/Photos/dark.jpg" alt="Trending 4">
+            </div>
+            <div class="poster">
+                <span class="rank">5</span>
+                <img src="assets/Photos/The Rip.jpg" alt="Trending 5">
+            </div>
+            <div class="poster">
+                <span class="rank">6</span>
+                <img src="assets/Photos/The night agent 3Poster.jpg" alt="Trending 6">
+            </div>
+            <div class="poster">
+                <span class="rank">7</span>
+                <img src="assets/Photos/Peaky Blinders Poster.jpg" alt="Trending 7">
+            </div>
+            <div class="poster">
+                <span class="rank">8</span>
+                <img src="assets/Photos/The Gentlemen Poster.jpg" alt="Trending 8">
+            </div>
+            <div class="poster">
+                <span class="rank">9</span>
+                <img src="assets/Photos/Project Power.jpg" alt="Trending 9">
+            </div>
+            <div class="poster">
+                <span class="rank">10</span>
+                <img src="assets/Photos/Gangs Of London Poster.jpg" alt="Trending 10">
+            </div>
+        </div>
+    </div>
+</section>
+
+                                                <!--More Reasons To Join Section-->
+<section class="reasons">
+    <h2>More Reasons to Join</h2>
+            <!--TV-->
+    <div class="reasons-grid">
+        <div class="reason-card">
+            <img src="assets/Icons/tv icon.jpg" alt="TV Icon" class="reason-icon">
+            <h3>Enjoy on your TV</h3>
+            <p>Watch on Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+        </div>
+
+        <!--Download Icon-->
+        <div class="reason-card">
+            <img src="assets/Icons/Download button.jpg" alt="Download Icon" class="reason-icon">
+            <h3>Download your shows to watch offline</h3>
+            <p>Save your favourites easily and always have something to watch.</p>
+        </div>
+
+        <!--Device Icons-->
+        <div class="reason-card">
+            <img src="assets/Icons/Stream Icon.jpg" alt="Device Icon" class="reason-icon">
+            <h3>Watch everywhere</h3>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </div>
+
+        <!--Kids Icon-->
+        <div class="reason-card">
+            <img src="assets/Icons/Kids profile icon.jpg" alt="Kids Icon" class="reason-icon">
+            <h3>Create profiles for kids</h3>
+            <p>Send kids on adventures with their favorite characters in a space made just for them - free with your membership.</p>
+        </div>
+    </div>
+</section>
+
+                                                    <!--Footer Section-->
+<!--FAQ Section-->
+<section class="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <details>
+        <summary>What is Netflix?</summary>
+            <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.</p>
+            <p>You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</p>
+    </details>
+
+    <details>
+        <summary>How much does Netflix cost?</summary>
+            <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from R 59 to R 229/month.</p>
+    </details>
+    
+    <details>
+        <summary>Where can i watch?</summary>
+            <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.</p>
+            <p>You can also download your favorite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+    </details>
+            
+        <details>
+        <summary>How do I cancel?</summary>
+            <p>Netflix is flexible. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+        </details>
+        
+         <details>
+        <summary>What can I watch on Netflix?</summary>
+            <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+         </details>
+    
+         <details>
+        <summary>Is Netflix good for kids?</summary>
+            <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.</p>
+            <p>Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
+         </details>
+    </section>
+
+    <!--Footer Email Box-->
+    <section class="footer-email">
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <form class="email-form">
+            <input type="email" placeholder="Email address" required>
+            <button type="submit"> Get Started </button>
+        </form>
+    </section>
+
+    <!--Footer Links-->
+    <footer class="footer">
+        <p>Questions? Call 0800 100 046</p>
+        <ul class="footer-links">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Investor Relations</a></li>
+            <li><a href="#">Ways to Watch</a></li>
+            <li><a href="#">Corporate Information</a></li>
+            <li><a href="#">Only on Netflix</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Redeem Gift Cards</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Speed Test</a></li>
+            <li><a href="#">Media Center</a></li>
+            <li><a href="#">Buy Gift Cards</a></li>
+            <li><a href="#">Cookie Preferences</a></li>
+            <li><a href="#">Legal Notices</a></li>
+        </ul>
+        <div class="language-select">
+            <select>
+                <option>English</option>
+                <option>Espanol</option>
+                <option>Francais</option>
+                <option>Deutsch</option>
+            </select>
+        </div>
+        <p>Netflix South Africa</p>
+    </footer>
+</body>
+</html>
