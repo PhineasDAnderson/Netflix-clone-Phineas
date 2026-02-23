@@ -7,3 +7,5 @@ Trending Carousel
 More Reasons to join
 Collapsible FAQ
 Footer with email box
+
+Live demo: [https://ntflixclone-phineasd.netlify.app/](https://ntflixclone-phineasd.netlify.app/)
